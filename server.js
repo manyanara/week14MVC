@@ -1,10 +1,9 @@
 const path= require('path');
 const express= require('express');
 const session = require('express-session');
-const exphbs = require('express-handlebars');
+// const exphbs = require('express-handlebars');
 const routes = require('/controllers');
 // const helpers = require('./utils/helpers') only if I want to add custom helpers to handlebars
-
 const sequelize = require('./config/connection'); 
 const sequelizeStore = require('connect-session-sequelize')(session.Store);
 
