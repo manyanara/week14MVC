@@ -1,25 +1,25 @@
 [
     {
       "title": "First Post",
-      "body": "This is the body of the first post.",
+      "postBody": "This is the postBody of the first post.",
       "date": "2024-02-29T00:00:00.000Z",
       "user_id": 1
     },
     {
       "title": "Second Post",
-      "body": "This is the body of the second post.",
+      "postBody": "This is the postBody of the second post.",
       "date": "2024-02-29T00:00:00.000Z",
       "user_id": 1
     },
     {
       "title": "Third Post",
-      "body": "This is the body of the third post.",
+      "postBody": "This is the postBody of the third post.",
       "date": "2024-02-29T00:00:00.000Z",
       "user_id": 2
     },
     {
       "title": "Fourth Post",
-      "body": "This is the body of the fourth post.",
+      "postBody": "This is the postBody of the fourth post.",
       "date": "2024-02-29T00:00:00.000Z",
       "user_id": 2
     }

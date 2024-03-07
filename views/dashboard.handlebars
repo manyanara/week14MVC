@@ -1,0 +1,13 @@
+
+
+{{#each posts as |post|}}
+{{>post-details}}
+{{/each}}
+
+<form>
+    <label for="postTitle"> Title: </label> <br>
+    <input type="text" id="postTitle" name="postTitle"><br>
+    <label for="postBody">Write your post here: </label><br>
+    <input type="text" id="postBody" name="postBody"><br>
+    <input type="submit" value="Submit">
+</form>

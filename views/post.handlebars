@@ -1,0 +1,20 @@
+<div>
+    <div>
+    <a href="./dashboard.handlebars"> take me home </a>
+    <h2> {{title}}</h2>
+    <h4> posted by {{name}} on: {{date}} </h4>
+    <p>{{postBody}}</p>
+    </div>
+
+    <form>
+        <label for="comment"> Add a comment: </label> <br>
+        <input type="text" id="commentBody" name="commentBody"><br>
+        <input type="submit" value="Submit"> 
+    </form>
+
+    <div>
+        {{#each comments as |comment|}}
+        {{>comment-details}}
+        {{#each}}
+    </div>
+</div>

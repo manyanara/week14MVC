@@ -1,18 +1,18 @@
 [
     {
-      "body": "This is a comment on the first post.",
+      "commentBody": "This is a comment on the first post.",
       "date": "2024-02-29T12:00:00.000Z",
       "user_id": 1,
       "post_id": 1
     },
     {
-      "body": "Nice post!",
+      "commentBody": "Nice post!",
       "date": "2024-02-29T12:30:00.000Z",
       "user_id": 2,
       "post_id": 1
     },
     {
-      "body": "Interesting topic.",
+      "commentBody": "Interesting topic.",
       "date": "2024-02-29T13:00:00.000Z",
       "user_id": 3,
       "post_id": 2
